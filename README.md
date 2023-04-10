@@ -1,11 +1,13 @@
 # Light-weight wrapper repository for running omnidata inference
+This repository contains a light-weight wrapper for running Omnidata inference without having to clone the repository and the weights.
+The majority of the code is a direct copy of the original omnidata repository; I am making it clear that I do not possess the license of the code and the weights.
 
 # License
-The license for the model and the weights are entirely attributed to the original authors of the [omnidata repository](https://github.com/EPFL-VILAB/omnidata)
+The license for the model and the weights are entirely attributed to the original authors of the [omnidata repository](https://github.com/EPFL-VILAB/omnidata).
 
 # Installation
 ```bash
-pip install git://github.com/leejaeyong7/OmnidataModels
+pip install git+https://github.com/leejaeyong7/OmnidataModels
 ```
 
 # Example Usage
