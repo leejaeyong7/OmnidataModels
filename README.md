@@ -5,7 +5,7 @@ The license for the model and the weights are entirely attributed to the origina
 
 # Installation
 ```bash
-pip install git://github.com/leejaeyong7/OmnidataModels
+pip install git+https://github.com/leejaeyong7/OmnidataModels
 ```
 
 # Example Usage
